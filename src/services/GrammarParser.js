@@ -47,8 +47,8 @@ function getObject (sentence) {
 
 export default {
   init () {
-    verbs = ['go', 'take', 'put', 'inventory', 'drop']
-    nouns = ['north', 'east', 'south', 'west', 'ball', 'sword', 'bag']
+    verbs = require('../../game/verbs')
+    nouns = require('../../game/nouns')
   },
   parse (sentence) {
     let command = {

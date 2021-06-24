@@ -1,9 +1,5 @@
 import GrammarParser from '@/services/GrammarParser.js'
 
-describe('Initializing Grammar Parser', () => {
-  
-})
-
 describe('GrammarParser', () => {
   beforeEach(() => {
     GrammarParser.init()
